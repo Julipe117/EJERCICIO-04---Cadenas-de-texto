@@ -15,10 +15,10 @@ console.log(estudianteMinus);
 
 console.log(estudiante.length);
 console.log(nombre[0]);
-console.log(apellido[7]);
+console.log(apellido[apellido.length -1]);
 
-console.log(estudiante.trim());
+console.log(estudiante.replace(" ", ""));
 
-console.log(estudiante.includes("Sergio"));
+console.log(estudiante.includes(nombre));
 
 
